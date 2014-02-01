@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Cadence CSS</title>
+	<link rel="stylesheet" type="text/css" href="cadence.css" />
+	<style>
+		body{
+			background-image: url('img/grid-22.png');
+		}
+		.col{
+			width: 50%;
+			padding: 1.375rem 25px;
+			float: left;
+			max-width: 650px
+
+		}
+	</style>
+</head>
+
+<body>
+	<div class="col">
+		<h1>Level 1 Heading</h1>
+		<h2>Level 2 Heading</h2>
+		<h3>Level 3 Heading</h3>
+		<h4>Level 4 Heading</h4>
+		<h5>Level 5 Heading</h5>
+		<h6>Level 6 Heading</h6>
+
+		<p>Here are two paragraphs of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis felis. Nam sodales dui euismod, ullamcorper neque at, sodales nulla. Duis gravida leo a tellus sollicitudin accumsan. Phasellus tincidunt felis nec purus tempor dapibus. Aliquam erat volutpat. Nam at auctor leo, at ullamcorper est. Nam pellentesque imperdiet nibh in fermentum. In lacinia, nunc non ullamcorper semper, ipsum lorem mollis felis, ut tempor urna leo quis augue. In hac habitasse platea dictumst. Quisque porta dui sed pulvinar consectetur. Aliquam consequat vitae magna non elementum. Aliquam egestas iaculis justo, a tincidunt arcu viverra sit amet.</p>
+
+		<p>Fusce auctor magna ut nibh viverra, in vestibulum ligula lacinia. Fusce at velit pretium, imperdiet arcu quis, rhoncus massa. Phasellus placerat, elit id fringilla ullamcorper, nisi ante ultrices enim, vel cursus ante lectus quis arcu. Integer purus lacus, placerat quis tincidunt malesuada, ullamcorper quis nibh. Mauris nec nisi elementum, hendrerit tellus at, consequat nibh. Sed porttitor libero nulla, non consequat odio accumsan vitae. Sed eleifend pulvinar velit, vel dapibus orci ornare in.</p>
+
+
+		<h2>Blockquotes</h2>
+
+		Single line blockquote:
+		<blockquote>Stay hungry. Stay foolish.</blockquote>
+		Multi line blockquote with a cite reference:
+		<blockquote>People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things. <cite>Steve Jobs - Apple Worldwide Developers' Conference, 1997</cite></blockquote>
+
+		<h2>Tables</h2>
+		<table>
+		<tbody>
+		<tr>
+		<th>Employee</th>
+		<th class="views">Salary</th>
+		<th></th>
+		</tr>
+		<tr class="odd">
+		<td><a href="http://example.org/">John Doe</a></td>
+		<td>$1</td>
+		<td>Because that's all Steve Job' needed for a salary.</td>
+		</tr>
+		<tr class="even">
+		<td><a href="http://example.org/">Jane Doe</a></td>
+		<td>$100K</td>
+		<td>For all the blogging he does.</td>
+		</tr>
+		<tr class="odd">
+		<td><a href="http://example.org/">Fred Bloggs</a></td>
+		<td>$100M</td>
+		<td>Pictures are worth a thousand words, right? So Tom x 1,000.</td>
+		</tr>
+		<tr class="even">
+		<td><a href="http://example.org/">Jane Bloggs</a></td>
+		<td>$100B</td>
+		<td>With hair like that?! Enough said...</td>
+		</tr>
+		</tbody>
+		</table>
+
+		<h2>Definition Lists</h2>
+		<dl>
+			<dt>Definition List Title</dt>
+			<dd>Definition list division.</dd>
+			<dt>Startup</dt>
+			<dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+			<dt>#dowork</dt>
+			<dd>Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.</dd>
+			<dt>Do It Live</dt>
+			<dd>I'll let Bill O'Reilly will <a title="We'll Do It Live" href="https://www.youtube.com/watch?v=O_HyZ5aW76c">explain</a> this one.</dd>
+		</dl>
+
+
+	</div>
+	<div class="col">
+
+
+		<h2>Forms</h2>
+
+		<form>
+			<p>
+				<label>Text Input</label><br>
+				<input type="text">
+			</p>
+
+			<p>
+				<label>Select List</label><br>
+				<select>
+					<option>First Option</option>
+					<option>Second Option</option>
+					<option>Third Option</option>
+				</select>
+			</p>
+
+			<p>
+				<span>Radio Buttons</span><br>
+				<input type="radio">First Option<br>
+				<input type="radio">Second Option<br>
+				<input type="radio">Third Option
+			</p>
+
+			<p>
+				<span>Checkboxes</span><br>
+				<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+				<input type="checkbox" name="vehicle" value="Car">I have a car 
+			</p>
+
+			<p>
+				<lable>Textarea</label><br>
+				<textarea>Test out the textarea</textarea>
+			</p>
+
+			<p><input type="button" value="Input button"></p>
+
+			<button>Button tag</button>
+
+			<p>This is a paragraph inside the form.</p>
+
+		</form>
+
+
+		<h2>Unordered Lists (Nested)</h2>
+
+		<ul>
+			<li>List item one
+				<ul>
+					<li>List item one
+						<ul>
+							<li>List item one</li>
+							<li>List item two</li>
+							<li>List item three</li>
+							<li>List item four</li>
+						</ul>
+					</li>
+					<li>List item two</li>
+					<li>List item three</li>
+					<li>List item four</li>
+				</ul>
+			</li>
+			<li>List item two</li>
+			<li>List item three</li>
+			<li>List item four</li>
+		</ul>
+
+		<h2>Ordered List (Nested)</h2>
+
+		<ol>
+			<li>List item one
+				<ol>
+					<li>List item one
+						<ol>
+							<li>List item one</li>
+							<li>List item two</li>
+							<li>List item three</li>
+							<li>List item four</li>
+						</ol>
+					</li>
+					<li>List item two</li>
+					<li>List item three</li>
+					<li>List item four</li>
+				</ol>
+			</li>
+			<li>List item two</li>
+			<li>List item three</li>
+			<li>List item four</li>
+		</ol>
+
+
+		<h2>HTML Tags</h2>
+
+		<p>These supported tags come from the WordPress.com code <a title="Code" href="http://en.support.wordpress.com/code/">FAQ</a>.</p>
+
+		<p>
+			<strong>Address Tag</strong>
+			<address>1 Infinite Loop
+			Cupertino, CA 95014
+			United States</address><strong>Anchor Tag (aka. Link)</strong>
+		</p>
+
+		<p>This is an example of a <a title="Apple" href="http://apple.com">link</a>.</p>
+
+		<p>
+			<strong>Abbreviation Tag</strong>
+			The abbreviation <abbr title="Seriously">srsly</abbr> stands for "seriously".
+		</p>
+
+		<p>
+			<strong>Cite Tag</strong>
+			"Code is poetry." --<cite>Automattic</cite>
+		</p>
+
+		<p>
+			<strong>Code Tag</strong>
+			You will learn later on in these tests that <code>word-wrap: break-word;</code> will be your best friend.
+		</p>
+
+		<p>
+			<strong>Delete Tag</strong>
+			This tag will let you <del>strikeout text</del>, but this tag is no longer supported in HTML5 (use the <code>&lt;strike&gt;</code> instead).
+		</p>
+
+		<p>
+			<strong>Emphasize Tag</strong>
+			The emphasize tag should <em>italicize</em> text.
+		</p>
+
+		<p>
+			<strong>Insert Tag</strong>
+			This tag should denote <ins>inserted</ins> text.
+		</p>
+
+		<p>
+			<strong>Keyboard Tag</strong>
+			This scarsly known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code>&lt;code&gt;</code> tag.
+		</p>
+
+		<p>
+			<strong>Preformatted Tag</strong>
+			This tag styles large blocks of code.
+		</p>
+
+		<pre>.post-title {
+			margin: 0 0 5px;
+			font-weight: bold;
+			font-size: 38px;
+			line-height: 1.2;
+		}</pre>
+
+		<p>
+			<strong>Quote Tag</strong>
+			<q>Developers, developers, developers...</q> --Steve Ballmer
+		</p>
+
+		<p>
+			<strong>Strike Tag (<em>deprecated in HTML5</em>)</strong>
+			This tag shows <span style="text-decoration: line-through;">strike-through text</span>
+		</p>
+
+		<p>
+			<strong>Strong Tag</strong>
+			This tag shows <strong>bold<strong> text.</strong></strong>
+		</p>
+
+		<p>
+			<strong>Subscript Tag</strong>
+			Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+		</p>
+
+		<p>
+			<strong>Superscript Tag</strong>
+			Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
+		</p>
+
+		<p>
+			<strong>Variable Tag</strong>
+			This allows you to denote <var>variables</var>.
+		</p>
+
+
+	</div>
+
+</body>
+</html>

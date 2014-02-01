@@ -1,0 +1,141 @@
+/* =Typographic cadence/baseline/vertical rhythm
+-------------------------------------------------------------- */
+
+*{
+	font-size: 100%; /* 16px */
+	line-height: 1.375rem; /* 22px */
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+table,
+blockquote,
+pre{
+	margin-bottom: 1.375rem; /* 22px */
+}
+
+
+h1{
+	font-size: 2.5rem; /* 40px */
+	line-height: 2.75rem; /* 44px */
+}
+
+h2{
+	font-size: 2rem; /* 32px */
+	line-height: 2.75rem; /* 44px */
+}
+
+h3{
+	font-size: 1.5rem; /* 24px */
+	line-height: 2.75rem; /* 44px */
+}
+
+h4{
+	font-size: 1.125rem; /* 18px */
+	line-height: 2.75rem; /* 44px */
+}
+
+h5{
+	font-size: 1rem; /* 16px */
+	line-height: 1.375rem; /* 22px */
+}
+
+h6{
+	font-size: 0.875rem; /* 14px */
+	line-height: 1.375rem; /* 22px */
+}
+
+blockquote{
+	padding:  1.375rem 1.5rem 0 1.5rem; /* 22px 24px 0 24px */
+}
+
+blockquote p{
+	margin-bottom: 0;
+	padding-bottom: 1.375rem; /* 22px */
+}
+
+blockquote cite{
+	display: block;
+	margin-top: 1.375rem; /* 22px */
+	text-align: right;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+th{
+	line-height: 2.75rem; /* 44px */
+}
+
+ol,
+ul{
+	margin-left: 1.5rem; /* 24px */
+}
+
+sub{
+	font-size: 0.625rem; /* 10px */
+	line-height: 1em;
+	vertical-align: bottom;
+}
+
+sup{
+	font-size: 0.625rem; /* 10px */
+	line-height: 1em;
+	vertical-align: top !important;
+}
+
+em,
+var,
+strong,
+code,
+kbd{
+	line-height: 1rem; /* 16px */
+}
+
+
+
+
+
+
+
+
+
+input[type="text"]{
+	height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+button,
+input[type="button"]{
+	height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+select{
+	height: 1.75rem;
+	margin-bottom: 1rem;
+	/*line-height: 2.75rem;*/
+}
+
+textarea{
+	height: 6.875rem;
+	display: block;
+}
+
+
+
