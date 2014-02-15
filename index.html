@@ -8,31 +8,45 @@
 	<link rel="stylesheet" type="text/css" href="cadence.css" />
 	<style>
 		body{
-			background-image: url('img/grid-22.png');
 			padding: 0;
 			margin: 0;
 		}
 
 		#header{
-			background: rgba(0,0,0,0.1);
-			padding: 1.375rem 1rem; /* 22px */
+			background: #f6f6f6;
+			padding: 24px;
 			text-align: center;
+			border-bottom: 1px solid #cdcdcd;
 		}
 
 		.site-title{
 			font-size: 2rem; /* 32px */
-			line-height: 2.75rem; /* 44px */
-			margin-bottom: 1.375rem; /* 22px */
+			line-height: 48px;
+			margin-bottom: 24px;
+		}
+
+		#page{
+			max-width: 1300px;
+			margin: 0 auto;
+			border-right: 1px solid #cdcdcd;
+			border-left: 1px solid #cdcdcd;
+		}
+
+		#main:after {
+			content: "";
+			display: table;
+			clear: both;
 		}
 
 		.col{
 			width: 50%;
-			padding: 1.375rem 25px;
+			padding: 0 25px;
 			float: left;
 			max-width: 650px
-
 		}
 	</style>
+
+
 </head>
 
 <body>
@@ -319,5 +333,17 @@
 		</div><!--.wrap-->
 	</div><!--#main-->
 </div><!--#page-->
+
+	<script>
+		var cadenceHeight = getComputedStyle(document.body, null).lineHeight;
+   		// alert(cadenceHeight);
+   		// var cadenceElement = ;
+   		alert(cadenceHeight);
+   		// alert(document.getElementById('main').innerHTML);
+   		document.getElementById('main').style.backgroundImage = 'url(img/grid-' + cadenceHeight + '.png)';
+   		document.getElementById('main').style.paddingTop = cadenceHeight;
+   		// document.body.style.backgroundImage = 'url(img/grid-' + cadenceHeight + '.png)';
+	</script>
+
 </body>
 </html>

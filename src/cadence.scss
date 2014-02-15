@@ -3,7 +3,7 @@
 
 $font-size: 100%; // 16px
 $font-size-sm: 0.625rem; // 10px
-$line-height: 1.375rem; // 22px
+$line-height: 22px; // 22px
 $line-height-sm: 1em;
 
 
@@ -69,7 +69,7 @@ h6{
 }
 
 blockquote{
-	padding:  $line-height 1.5rem 0 1.5rem; /* 22px 24px 0 24px */
+	padding:  $line-height 1.5rem 0 1.5rem;
 }
 
 blockquote p{
@@ -127,23 +127,23 @@ kbd{
 
 
 input[type="text"]{
-	height: 1.75rem;
-	margin-bottom: 1rem;
+	height: $line-height * 1.25;
+	margin-bottom: $line-height * 0.75;
 }
 
 button,
 input[type="button"]{
-	height: 1.75rem;
-	margin-bottom: 1rem;
+	height: $line-height * 1.25;
+	margin-bottom: $line-height * 0.75;
 }
 
 select{
-	height: 1.75rem;
-	margin-bottom: 1rem;
+	height: $line-height * 1.25;
+	margin-bottom: $line-height * 0.75;
 }
 
 textarea{
-	height: 6.875rem;
+	height: $line-height * 5;
 	display: block;
 }
 
