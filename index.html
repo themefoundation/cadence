@@ -9,7 +9,22 @@
 	<style>
 		body{
 			background-image: url('img/grid-22.png');
+			padding: 0;
+			margin: 0;
 		}
+
+		#header{
+			background: rgba(0,0,0,0.1);
+			padding: 1.375rem 1rem; /* 22px */
+			text-align: center;
+		}
+
+		.site-title{
+			font-size: 2rem; /* 32px */
+			line-height: 2.75rem; /* 44px */
+			margin-bottom: 1.375rem; /* 22px */
+		}
+
 		.col{
 			width: 50%;
 			padding: 1.375rem 25px;
@@ -21,6 +36,31 @@
 </head>
 
 <body>
+
+	<div id="page">
+		<div id="header" class="site-header">
+			<div class="wrap">
+				
+				<div id="branding" role="banner">
+					<p class="site-title">Cadence</p>
+					<p class="site-description">Just another baseline grid...</p>
+				</div><!--#branding-->
+			
+			</div><!--.wrap-->
+		</div><!--#header-->
+		
+	
+		<div id="main">
+			<div class="wrap">
+
+				<div id="primary">
+					<div id="content" role="main">
+
+
+
+
+
+
 	<div class="col">
 		<h1>Level 1 Heading</h1>
 		<h2>Level 2 Heading</h2>
@@ -273,5 +313,11 @@
 
 	</div>
 
+	
+				</div><!--#content-->
+			</div><!--#primary-->
+		</div><!--.wrap-->
+	</div><!--#main-->
+</div><!--#page-->
 </body>
 </html>

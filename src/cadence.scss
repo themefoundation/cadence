@@ -1,0 +1,151 @@
+// =SASS Variables
+//-------------------------------------------------------------- */
+
+$font-size: 100%; // 16px
+$font-size-sm: 0.625rem; // 10px
+$line-height: 1.375rem; // 22px
+$line-height-sm: 1em;
+
+
+/* =Typographic cadence/baseline/vertical rhythm
+-------------------------------------------------------------- */
+
+*{
+	font-size: $font-size;
+	line-height: $line-height;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+table,
+blockquote,
+pre{
+	margin-bottom: $line-height;
+}
+
+
+h1{
+	font-size: 2.5rem;
+	line-height: $line-height * 2;
+}
+
+h2{
+	font-size: 2rem;
+	line-height: $line-height * 2;
+}
+
+h3{
+	font-size: 1.5rem;
+	line-height: $line-height * 2;
+}
+
+h4{
+	font-size: 1.125rem; /* 18px */
+	line-height: $line-height * 2;
+}
+
+h5{
+	font-size: 1rem; /* 16px */
+	line-height: $line-height;
+}
+
+h6{
+	font-size: 0.875rem; /* 14px */
+	line-height: $line-height;
+}
+
+blockquote{
+	padding:  $line-height 1.5rem 0 1.5rem; /* 22px 24px 0 24px */
+}
+
+blockquote p{
+	margin-bottom: 0;
+	padding-bottom: $line-height;
+}
+
+blockquote cite{
+	display: block;
+	margin-top: $line-height;
+	text-align: right;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+th{
+	line-height: $line-height * 2;
+}
+
+ol,
+ul{
+	margin-left: 1.5rem; /* 24px */
+}
+
+sub{
+	font-size: $font-size-sm;
+	line-height: $line-height-sm;
+	vertical-align: bottom;
+}
+
+sup{
+	font-size: $font-size-sm;
+	line-height: $line-height-sm;
+	vertical-align: top !important;
+}
+
+em,
+var,
+strong,
+code,
+kbd{
+	line-height: $line-height-sm;
+}
+
+
+
+
+
+
+/* =Forms
+-------------------------------------------------------------- */
+
+
+
+input[type="text"]{
+	height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+button,
+input[type="button"]{
+	height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+select{
+	height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+textarea{
+	height: 6.875rem;
+	display: block;
+}
+
+
+
