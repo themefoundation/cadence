@@ -18,12 +18,26 @@ module.exports = function(grunt) {
 				src: 'src/cadence.css',
 				dest: 'cadence.css'
 			}
+		},
+
+		watch: {
+			options: {
+				livereload: true,
+			},
+			sass: {
+				files: ['src/cadence.scss'],
+				tasks: ['sass', 'pixrem'],
+				options: {
+					spawn: false,
+				},
+			},
 		}
 
 	});
 
 	grunt.loadNpmTasks('grunt-pixrem');
 	grunt.loadNpmTasks('grunt-sass');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('default', ['sass', 'pixrem']);
+	grunt.registerTask('default', ['watch']);
 };
