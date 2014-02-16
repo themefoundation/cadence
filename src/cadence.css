@@ -2,7 +2,7 @@
 -------------------------------------------------------------- */
 * {
   font-size: 100%;
-  line-height: 32px;
+  line-height: 1.375rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
@@ -12,52 +12,52 @@
   box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6, p, ol, ul, table, blockquote, pre {
-  margin-bottom: 32px; }
+  margin-bottom: 1.375rem; }
 
 h1 {
   font-size: 2.5rem;
-  line-height: 64px; }
+  line-height: 2.75rem; }
 
 h2 {
   font-size: 2rem;
-  line-height: 64px; }
+  line-height: 2.75rem; }
 
 h3 {
   font-size: 1.5rem;
-  line-height: 64px; }
+  line-height: 2.75rem; }
 
 h4 {
   font-size: 1.125rem;
   /* 18px */
-  line-height: 64px; }
+  line-height: 2.75rem; }
 
 h5 {
   font-size: 1rem;
   /* 16px */
-  line-height: 32px; }
+  line-height: 1.375rem; }
 
 h6 {
   font-size: 0.875rem;
   /* 14px */
-  line-height: 32px; }
+  line-height: 1.375rem; }
 
 blockquote {
-  padding: 32px 1.5rem 0 1.5rem; }
+  padding: 1.375rem 1.5rem 0 1.5rem; }
 
 blockquote p {
   margin-bottom: 0;
-  padding-bottom: 32px; }
+  padding-bottom: 1.375rem; }
 
 blockquote cite {
   display: block;
-  margin-top: 32px;
+  margin-top: 1.375rem;
   text-align: right; }
 
 table {
   border-collapse: collapse; }
 
 th {
-  line-height: 64px; }
+  line-height: 2.75rem; }
 
 ol, ul {
   margin-left: 1.5rem;
@@ -79,17 +79,17 @@ em, var, strong, code, kbd {
 /* =Forms
 -------------------------------------------------------------- */
 input[type="text"] {
-  height: 40px;
-  margin-bottom: 24px; }
+  height: 1.71875rem;
+  margin-bottom: 1.03125rem; }
 
 button, input[type="button"] {
-  height: 40px;
-  margin-bottom: 24px; }
+  height: 1.71875rem;
+  margin-bottom: 1.03125rem; }
 
 select {
-  height: 40px;
-  margin-bottom: 24px; }
+  height: 1.71875rem;
+  margin-bottom: 1.03125rem; }
 
 textarea {
-  height: 160px;
+  height: 6.875rem;
   display: block; }
